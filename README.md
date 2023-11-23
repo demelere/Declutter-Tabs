@@ -1,0 +1,9 @@
+This project is part of my personal workflow for when I'm stuck in research mode where I'm drowning in unactionable information.  It goes beyond link storage extensions by offloading the tasks of semantic note organizing and turning those into actionable next steps.  This is a huge energy drain for me, and often the thing most preventing project outcomes from ever seeing the light, and it deserves to be offloaded and automated.  
+
+1. `manifest.json`: This file is required for creating a Chrome extension and contains metadata about the extension, including its name, version, permissions, and background scripts.
+2. `background.js`: This file will contain the JavaScript code for the background script of the Chrome extension. It will handle the logic for capturing open tabs, extracting semantic content, and categorizing the links.
+3. `content.js`: This file will contain the JavaScript code for the content script of the Chrome extension. It will be responsible for interacting with the web pages, extracting content, and sending data to the background script.
+4. `popup.html` and `popup.js`: These files will create the user interface for the extension's popup. The `popup.html` file will define the structure of the popup, and the `popup.js` file will contain the JavaScript code to handle user interactions and display the categorized links.
+5. `options.html` and `options.js`: These files will create the user interface for the extension's options page. The `options.html` file will define the settings and configuration options, and the `options.js` file will contain the JavaScript code to handle user preferences.
+6. `utils.js`: This file will contain utility functions that can be used across the extension, such as functions for text analysis, categorization, and data manipulation.
+7. `googleDoc.js`: This file will contain the JavaScript code for interacting with the Google Docs API to enable the option to output categorized links to a Google Doc.
